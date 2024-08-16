@@ -6,7 +6,7 @@ The logistic KTz model uses the logistic function as an approximation of the hyp
 
 The functions used in both versions of the KT and KTz models are continuous functions, so that the resetting of the action potential is not forced within the system. As a consequence, the peaks of the KTz have their own rising and falling time scales, which is useful. These intrinsic time scales allow for the emergence of cardiac spikes. The use of simple models from the KTz family can facilitate the mathematical understanding of phenomena such as subthreshold oscillation-induced bursting, cardiac arrhythmia, or depolarization studied in vitro and in vivo, being more advantageous than conductance-based neuron models, which have vast parameter spaces.
 
-1. $x(t+1) = F\left(\frac{x(t) - \kappa y(t) + z(t) + H + I^{ext}(t)}{T}$
+1. $x(t+1) = F(\frac{x(t) - \kappa y(t) + z(t) + H + I^{ext}(t)}{T}$
 2. $y(t+1) = x(t)$
 3. $z(t+1) = (1 - \delta)z(t) - \lambda(x(t) - x_R)$
 
